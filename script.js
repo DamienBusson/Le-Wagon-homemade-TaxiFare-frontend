@@ -1,7 +1,7 @@
 const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
 const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
-const mapboxApiToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
-const taxiFareApiUrl = 'http://localhost:8000/predict_fare/';
+const taxiFareApiUrl = 'https://cloudruntry-cb57u5rl5q-ew.a.run.app/predict_fare';
+const mapboxApiToken = 'pk.eyJ1IjoiZGFtaWVuYnVzc29uIiwiYSI6ImNrbWc5c2V5bTNkamUycWp4aXE1MHYyNjYifQ.T58TMY0RSo8o-yOdTzSQ5Q';
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
